@@ -1,15 +1,15 @@
 import getThatJobs from "../assets/images/get-that-jobs.png";
 import hitHive from "../assets/images/hit-hive.png";
 import ageCal from "../assets/images/age-cal.png";
-import newsletter from "../assets/images/newsletter.png";
+import crud from "../assets/images/CRUD.jpg";
 import notifications from "../assets/images/notifications.png";
 import nextJs from "../assets/images/next-js.png";
 import vite from "../assets/images/vite.png";
-import reactNative from "../assets/images/react-native.png";
+import react from "../assets/images/react-native.png";
 import jobs from "../assets/images/get-that-jobs.gif";
 import api from "../assets/images/hit-hive.gif";
 import cal from "../assets/images/age-cal.gif";
-import news from "../assets/images/newsletter.gif";
+import crudGif from "../assets/images/CRUD.gif";
 import noti from "../assets/images/noti.gif";
 
 const portfolio = [
@@ -50,7 +50,7 @@ const portfolio = [
   {
     id: "03",
     subTitle: "practice frontend skills",
-    icon: reactNative,
+    icon: react,
     image: ageCal,
     name: "Age Calculator",
     description:
@@ -66,23 +66,23 @@ const portfolio = [
   {
     id: "04",
     subTitle: "practice frontend skills",
-    icon: reactNative,
-    image: newsletter,
-    name: "Newsletter",
+    icon: nextJs,
+    image: crud,
+    name: "CRUD Project",
     description:
-      "This is a project used to practice frontend skills from the 'Frontend Mentor' website. It's a project that provides an input for an email to subscribe to a newsletter. It's also a project used to practice writing email error-handling conditions using React and native CSS.",
-    tag1: "React",
-    tag2: "Native CSS",
+      "This project is a front-end development exercise that utilizes Next.js and Material-UI (MUI). It fetches mock data from the mockapi.io website. The project allows for the creation, reading, updating, and deletion of data, as well as the ability to search for information. It includes a pagination feature for splitting content across multiple pages and is responsive, adapting gracefully to various devices.",
+    tag1: "Next.js",
+    tag2: "MUI UI",
     tag3: "Responsive",
     tag6: "Frontend",
-    version: "react@18.2.0",
-    link: "https://github.com/FahSudarad/newsletter",
-    gif: news,
+    version: "Next.js v13.5.2",
+    link: "https://github.com/FahSudarad/CRUD",
+    gif: crudGif,
   },
   {
     id: "05",
     subTitle: "practice frontend skills",
-    icon: reactNative,
+    icon: react,
     image: notifications,
     name: "Notifications Page",
     description:
