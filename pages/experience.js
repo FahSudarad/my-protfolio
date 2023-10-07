@@ -1,7 +1,13 @@
 import React from "react";
 import workExperience from "@/data/workExperienceData";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function experience() {
+  useEffect(() => {
+    AOS.init(); // กำหนดค่าเริ่มต้นของ AOS
+  }, []);
   return (
     <div className="flex flex-col" id="experience">
       <h1 className="text-[70px] flex justify-center mb-10">Work Experience</h1>
@@ -16,6 +22,9 @@ function experience() {
         <tbody>
           {workExperience.map((item, index) => (
             <tr
+              data-aos="fade-right"
+              data-aos-offset="150"
+              data-aos-easing="ease-in-sine"
               key={index}
               className="group hover:bg-white hover:text-[#595ce2]"
             >
